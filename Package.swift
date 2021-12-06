@@ -23,8 +23,7 @@ let package = Package(
             path: "Pod",
             sources: ["Classes"],
             resources: [         // require swift-tools-version:5.3
-                .copy("Assets/Highlighter"),
-                .copy("Assets/styles")
+                .copy("Assets/highlighter.bundle")
             ]
         )
     ]
